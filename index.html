@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container-fluid text-center">
+            <header>
+                <h1 class="mb-4 mt-4">Pomodoro Timer</h1>
+                <div class="row timerDiv">
+                    <div class="col">
+                        <h6 id="timer-type">Start Timer</h6> <!-- timer-type element to display session/break -->
+                        <h2 id="timer">25:00</h2>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h5>Session Length</h5>
+                    <div class="btns">
+                        <button id="session-decrement" class="btn p-4 text-light"><span>-</span></button>
+                        <span id="session-length" class="p-4">25</span>
+                        <button id="session-increment" class="btn p-4 text-light"><span>+</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5>Break Length</h5>
+                    <div class="btns">
+                        <button id="break-decrement" class="btn p-4 text-light"><span>-</span></button>
+                        <span id="break-length" class="p-4">5</span>
+                        <button id="break-increment" class="btn p-4 text-light"><span>+</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col twoBtns">
+                    <button id="reset" class="btn btn-warning w-100 p-4">Reset</button>
+                    <button id="start-stop" class="btn btn-success w-100 p-4">Start</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</html>
