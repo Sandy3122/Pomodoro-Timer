@@ -1,7 +1,5 @@
 # Pomodoro Timer Web App
 
-![Pomodoro Timer](pomodoro-screenshot.png)
-
 This is a simple web-based Pomodoro Timer application built using HTML, CSS, and JavaScript. The Pomodoro Technique is a time management method that uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. This timer helps you stay focused and productive.
 
 
@@ -21,9 +19,9 @@ This is a simple web-based Pomodoro Timer application built using HTML, CSS, and
 
 [QR Code Generator](https://pomodoro-focus-app.netlify.app/)
 
-<!-- ![Website Image](https://i.ibb.co/H7dLwbx/screen.png) -->
+<!-- ![Website Image](https://i.ibb.co/M7G0PhV/pomodoro-Timer.png) -->
 ## Website Overview    
-<img src="https://i.ibb.co/VNX7LxN/pomodoro-Timer.gif" alt="Pomodoro Timer">
+<img src="https://i.ibb.co/M7G0PhV/pomodoro-Timer.png" alt="Pomodoro Timer">
 
 
 ## Features
